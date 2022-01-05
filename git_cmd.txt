@@ -29,6 +29,10 @@ git stash pop  ----->  stash applied to resend one
 git stash apply stash@{0} -----> uncommited changes are visibled
 git stash clear ---> Removed all stash 
 git stash drop stash@{1} ----> removed stash based on stash id
+<<<<<<< Updated upstream
+=======
+git merge <branchName>  ---->  merge data from branch to master
+>>>>>>> Stashed changes
 
 
 
