@@ -14,9 +14,22 @@ git config user.email --------> view current email to console
 git branch  -----------> listout all branches
 git branch <branchName> ---> create new branch 
 git checkout <branchName> ------> checkout to particular branch
+$ git checkout -f <branchName> ------> Forcefully checkout to particular branch 
 git reset Head git_cmd.txt ----->  remove particular file from stage area 
 git restore git_cmd.txt ------->   modified file restored to stage area 
 git restore --staged git_cmd.txt ----> remove new modification from stage area file
+git branch -d <branchName> -----> Deleted particular branch
+git branch -D <branchName> -----> Forcefully deleted particular branch
+git diff  -----> It shows difference b/w last Commit and newly added files data
+git diff hello.html  ---->  It shows difference between last commit and selected file data only
+git diff <branchName> ---> It shows difference between current branch and selected branch
+git stash ---->  Newly edited code not commited but we try to checkout our branch it not allowed. So temporarly store that code using stash command
+git stash list ----->  listout all the stash based on stash id
+git stash pop  ----->  stash applied to resend one
+git stash apply stash@{0} -----> uncommited changes are visibled
+
+
+
 
 
 
