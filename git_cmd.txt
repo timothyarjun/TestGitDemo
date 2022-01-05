@@ -27,6 +27,8 @@ git stash ---->  Newly edited code not commited but we try to checkout our branc
 git stash list ----->  listout all the stash based on stash id
 git stash pop  ----->  stash applied to resend one
 git stash apply stash@{0} -----> uncommited changes are visibled
+git stash clear ---> Removed all stash 
+git stash drop stash@{1} ----> removed stash based on stash id
 
 
 
