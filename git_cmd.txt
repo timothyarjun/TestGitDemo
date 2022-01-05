@@ -1,6 +1,25 @@
-git init   ----------->   
-git status ----------->
-git add -A ----------->
-git rm --cached hello.html ----->
+git init   ----------->   initialized git 
+git status ----------->   view current status
+git add -A ----------->   add all untracked files to the stage area
+git rm --cached hello.html ----->  remove particular file from stage area 
+rm style.css --------->  remove file from directory
+git commit -a -m "First commit"  -------> commit file to master or current branch
+git log ----->  log contains commit details like author, email, commit message and commit Id 
+git config --global user.name "Timothy"  -------->  set this Username globally
+git config --global user.email "Timothy1995@gmail.com" ---------> set this email globally
+git config  user.name "Timothy"  -------->  set this Username for particular task only
+git config  user.email "Timothy1995@gmail.com" ---------> set this email for particular task only
+git config user.name  --------> view current username to console
+git config user.email --------> view current email to console
+git branch  -----------> listout all branches
+git branch <branchName> ---> create new branch 
+git checkout <branchName> ------> checkout to particular branch
+git reset Head git_cmd.txt ----->  remove particular file from stage area 
+git restore git_cmd.txt ------->   modified file restored to stage area 
+git restore --staged git_cmd.txt ----> remove new modification from stage area file
+
+
+
+
 
 
