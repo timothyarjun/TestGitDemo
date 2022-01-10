@@ -1,4 +1,5 @@
 git init   ----------->   initialized git 
+git init --bare  ----> initialized bare repository (push and pull purpose only)
 git status ----------->   view current status
 git add -A ----------->   add all untracked files to the stage area
 git rm --cached hello.html ----->  remove particular file from stage area 
@@ -29,10 +30,14 @@ git stash pop  ----->  stash applied to resend one
 git stash apply stash@{0} -----> uncommited changes are visibled
 git stash clear ---> Removed all stash 
 git stash drop stash@{1} ----> removed stash based on stash id
-<<<<<<< Updated upstream
-=======
 git merge <branchName>  ---->  merge data from branch to master
->>>>>>> Stashed changes
+git pull <branchName> ----> pull the code from selected branch
+git format -patch --stdout master > slave.patch ---------> patch file created 
+git diff > slave.patch -----> patch file created
+git apply slave.patch ---------> applied patch file
+git tag ----> listout all the tags
+git tag <tag name> ------> create tag for tracking based on tracking name like version 
+git pull --rebase  ------> avoid conflict between both users commit
 
 
 
